@@ -1,0 +1,45 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;1,900&family=Open+Sans:ital@1&display=swap');
+ *{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./photos/winter.jpg") ;
+    background-position: center center;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 50px;
+    text-align: center;
+
+}
+.counting-down{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.number{
+    margin: 0 3rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.container-text{
+    text-align: center;
+
+}
+@media only screen and (max-width: 500px){
+h1{
+    font-size: 30px;
+}
+.number{
+    font-size: 2rem;
+}
+body{
+    background-size: auto;
+}
+}
